@@ -1,0 +1,18 @@
+[[test]]
+input = """
+João
+7.5
+8.0
+6.0
+-1
+Maria
+9.0
+8.5
+-1
+-1
+"""
+# Exact string match:
+expected = """
+Nome: João, Média: 7.17
+Nome: Maria, Média: 8.75
+"""
