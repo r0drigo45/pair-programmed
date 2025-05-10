@@ -1,0 +1,3 @@
+**/**.cache/
+solutions/c/commons/bufio.h
+verifier/target/**
